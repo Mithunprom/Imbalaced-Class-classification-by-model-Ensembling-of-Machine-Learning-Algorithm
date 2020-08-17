@@ -43,6 +43,11 @@ The performance (accuracy of different method is described below):
 <tr><td>SVM   </td>        <td>  0.753191  </td>            <td>  0.046809</td></tr>
 
 </table>
+<p3>
+One disadvantage of decision tree is it’s tendency to overfit. There are some strong modeling ensembles techniques and much more robust than a single decision tree. They aggregate many decision trees to limit overfitting as well as error due to bias and therefore yield useful results. The performance on the test sets for different algorithms are described here:
+  
+</p3>
+
 The project is describes <a href="url"> here </a>.
 
 <h1>Author: Mithun Ghosh</h1>
