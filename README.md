@@ -30,8 +30,9 @@ After the up-sampling:
 
 
 The performance (accuracy of different method is described below):
+<table style="width:100%">
 <tr>
-  <th>Alogorithm</th>  <th>mean of CV error</th> <th>variance of CV error</th>
+  <th>Alogorithm</th>  <th>mean of CV error</th> <th>variance of CV error</th></tr>
   
 <tr><td>NN</td>               <td>0.725532    </td>         <td>    0.066911</td></tr>
 <tr><td>LR  </td>               <td> 0.734043   </td>          <td>   0.058074</td></tr>
@@ -41,7 +42,7 @@ The performance (accuracy of different method is described below):
 <tr><td>NB   </td>          <td>   0.719149  </td>          <td>    0.036606</td></tr>
 <tr><td>SVM   </td>        <td>  0.753191  </td>            <td>  0.046809</td></tr>
 
-
+</table>
 The project is describes <a href="url"> here </a>.
 
 <h1>Author: Mithun Ghosh</h1>
