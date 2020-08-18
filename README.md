@@ -25,10 +25,12 @@ We can deal with this imbalance class problem in a number of way. Such as:
 
 After experimenting I am concluding that, considering the Up-sample of the minority class method for this Dataset is the best method.
 Thus before the upsampling:
+
 <img src="f9.png"> </img>
 
 
 After the up-sampling:
+
 <img src="p1.png"></img>
 
 The performance (accuracy of different method is described below):
@@ -47,7 +49,14 @@ The performance (accuracy of different method is described below):
 </table>
 <p3>
 One disadvantage of decision tree is it’s tendency to overfit. There are some strong modeling ensembles techniques and much more robust than a single decision tree. They aggregate many decision trees to limit overfitting as well as error due to bias and therefore yield useful results. The performance on the test sets for different algorithms are described here:
-  
+  <table style="width:100%">
+<tr>
+  <th>Alogorithm</th>  <th>mean of CV error</th> <th>variance of CV error</th></tr>
+<tr><td> AB</td>  <td>0.828096</td> <td>0.040678</td></tr>
+<tr><td>GBM</td> <td>0.905338</td><td> (0.042593</td></tr>
+<tr><td>RF</td> <td>0.957444 </td><td>0.029133</td></tr>
+<tr><td>ET</td> <td>0.968826 </td><td>0.031457</td></tr>
+<tr><td>XGB</td> <td>0.884836</td><td> 0.055854</td></tr>
 </p3>
 
 The project is describes <a href="SalaryData_presentation_Ghosh_Mithun.pptx"> here </a>.
