@@ -1,3 +1,7 @@
+
+<h1>Author: Mithun Ghosh</h1>
+<h2> Instruction to run the code:</h2>
+</p2>Run the Colab file <a href="NIH.ipynb"> here </a>.. The presentation of this project is also mentioned <a href="SalaryData_presentation_Ghosh_Mithun.pptx"> here </a>..</p2>
 <h1> Imbalaced-Class-classification-by-model-Ensembling-of-Machine-Learning-Algorithm</h1>
 
 <p1>The Purpose of this project is to build a classification predictive model, with the response being whether the salary is in the top quartile or not.
@@ -24,7 +28,7 @@ We can deal with this imbalance class problem in a number of way. Such as:
 <li>Change Your Performance Metric</li></ol>
 
 After experimenting I am concluding that, considering the Up-sample of the minority class method for this Dataset is the best method.
-Thus before the upsampling:
+Thus, before the upsampling:
 
 <img src="f9.png"> </img>
 
@@ -53,14 +57,12 @@ One disadvantage of decision tree is it’s tendency to overfit. There are some 
 <tr>
   <th>Alogorithm</th>  <th>mean of CV error</th> <th>variance of CV error</th></tr>
 <tr><td> AB</td>  <td>0.828096</td> <td>0.040678</td></tr>
-<tr><td>GBM</td> <td>0.905338</td><td> (0.042593</td></tr>
+<tr><td>GBM</td> <td>0.905338</td><td> 0.042593</td></tr>
 <tr><td>RF</td> <td>0.957444 </td><td>0.029133</td></tr>
 <tr><td>ET</td> <td>0.968826 </td><td>0.031457</td></tr>
 <tr><td>XGB</td> <td>0.884836</td><td> 0.055854</td></tr>
+ Feature selection and importance along with the interpretation of the output is described in detaild <a href="SalaryData_presentation_Ghosh_Mithun.pptx"> here </a>..
 </p3>
 
-The project is describes <a href="SalaryData_presentation_Ghosh_Mithun.pptx"> here </a>.
 
-<h1>Author: Mithun Ghosh</h1>
-<h2> Instruction to run the code:</h2>
-</p2></p2>
+
