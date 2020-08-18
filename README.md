@@ -1,7 +1,7 @@
 
 <h1>Author: Mithun Ghosh</h1>
 <h2> Instruction to run the code:</h2>
-</p2>Run the Colab file <a href="NIH.ipynb"> here </a>.. The presentation of this project is also mentioned <a href="SalaryData_presentation_Ghosh_Mithun.pptx"> here </a>..</p2>
+</p2>Run the Colab file <a href="NIH.ipynb"> here </a>.. The presentation of this project is also <a href="SalaryData_presentation_Ghosh_Mithun.pptx"> here </a>..</p2>
 <h1> Imbalaced-Class-classification-by-model-Ensembling-of-Machine-Learning-Algorithm</h1>
 
 <p1>The Purpose of this project is to build a classification predictive model, with the response being whether the salary is in the top quartile or not.
@@ -61,6 +61,8 @@ One disadvantage of decision tree is it’s tendency to overfit. There are some 
 <tr><td>RF</td> <td>0.957444 </td><td>0.029133</td></tr>
 <tr><td>ET</td> <td>0.968826 </td><td>0.031457</td></tr>
 <tr><td>XGB</td> <td>0.884836</td><td> 0.055854</td></tr>
+ 
+ 
  Feature selection and importance along with the interpretation of the output is described in detaild <a href="SalaryData_presentation_Ghosh_Mithun.pptx"> here </a>..
 </p3>
 
