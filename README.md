@@ -25,9 +25,9 @@ We can deal with this imbalance class problem in a number of way. Such as:
 
 After experimenting I am concluding that, considering the Up-sample of the minority class method for this Dataset is the best method.
 Thus before the upsampling:
-<a href="f9.png"> </a>
+<a href="f9.png"> Fig01</a>
 After the up-sampling:
-<a href="p1.png"> </a>
+<a href="p1.png"> Fig02</a>
 
 The performance (accuracy of different method is described below):
 <table style="width:100%">
